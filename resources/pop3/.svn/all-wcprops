@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pop3
+END
+parse_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pop3/parse_message.php
+END
+pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pop3/pop3.php
+END
+rfc822_addresses.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pop3/rfc822_addresses.php
+END
+mime_parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pop3/mime_parser.php
+END

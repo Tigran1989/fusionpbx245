@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/public
+END
+00_inbound_did.xml.noload
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/public/00_inbound_did.xml.noload
+END

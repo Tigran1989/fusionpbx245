@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications
+END
+root.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications/root.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications/app_config.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications/app_languages.php
+END
+app_defaults.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications/app_defaults.php
+END
+notification_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6704/trunk/fusionpbx/core/notifications/notification_edit.php
+END

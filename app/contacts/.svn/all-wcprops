@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts
+END
+contact_addresses.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_addresses.php
+END
+contact_phone_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_phone_edit.php
+END
+contacts_vcard.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contacts_vcard.php
+END
+contact_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_edit.php
+END
+contact_note_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_note_delete.php
+END
+contact_notes.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_notes.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/app_config.php
+END
+contact_address_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_address_edit.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/app_languages.php
+END
+contact_phone_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_phone_delete.php
+END
+contact_phones.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_phones.php
+END
+contact_extensions.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_extensions.php
+END
+contact_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_delete.php
+END
+contacts.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contacts.php
+END
+contact_address_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_address_delete.php
+END
+contact_note_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_note_edit.php
+END
+contact_import.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/contacts/contact_import.php
+END

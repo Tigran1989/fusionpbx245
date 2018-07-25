@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/linksys/spa3102
+END
+{$mac}.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/linksys/spa3102/%7B$mac%7D.xml
+END

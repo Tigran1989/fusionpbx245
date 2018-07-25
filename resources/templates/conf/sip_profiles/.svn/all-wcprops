@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/conf/sip_profiles
+END
+internal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/conf/sip_profiles/internal.xml
+END
+internal-ipv6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/sip_profiles/internal-ipv6.xml
+END
+external.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/sip_profiles/external.xml
+END

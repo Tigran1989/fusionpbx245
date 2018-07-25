@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6863/trunk/fusionpbx/app/extensions
+END
+extension_copy.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/extension_copy.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/app_languages.php
+END
+app_defaults.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2758/trunk/fusionpbx/app/extensions/app_defaults.php
+END
+extension_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/extension_delete.php
+END
+extensions.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/extensions.php
+END
+extension_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/extension_edit.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6704/trunk/fusionpbx/app/extensions/app_config.php
+END

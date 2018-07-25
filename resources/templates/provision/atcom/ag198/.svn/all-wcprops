@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/atcom/ag198
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/atcom/ag198/%7B$mac%7D.cfg
+END

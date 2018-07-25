@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp
+END
+xmpp_profile_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/xmpp_profile_edit.php
+END
+update_complete.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/update_complete.php
+END
+profile_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/profile_list.php
+END
+profile_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/profile_delete.php
+END
+xmpp.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/xmpp.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/app_config.php
+END
+profile_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/profile_edit.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6704/trunk/fusionpbx/app/xmpp/app_languages.php
+END

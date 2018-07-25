@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/panasonic/tgp500
+END
+KX-TGP500B04.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/panasonic/tgp500/KX-TGP500B04.cfg
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/panasonic/tgp500/%7B$mac%7D.cfg
+END

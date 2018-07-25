@@ -1,0 +1,1038 @@
+<all>
+	<SipDSPs>
+			<dsp EchoSuppression="0" CodecType="4"
+CodecType1="0" CodecType2="1" CodecType3="3" CodecType4="2"
+CodecType5="255" CodecType6="255" CodecType7="255" CodecType8="255"
+HandInputVoice="5" HandOutputVoice="3" EarphoneInputVoice="5"
+EarphoneOutputVoice="3" RingTypeVoice="3" DiallingTone="1" RTPsize="1"
+HandFreeInputVoice="5" HandFreeOutputVoice="3" VoEnableAEC="1"
+VoEnableAGC="1" HighG723="1" VoEnableVAD="0" ringfileName0=""
+ringfileName1="" ringfileName2="" ringfileName3="" ringfileName4=""
+ringfileName5="" ringfileName6="" ringfileName7="" ringfileName8=""
+ringfileName9="" CurrentRingName="Ring1" enableCode0="G722"
+enableCode1="G711A" enableCode2="G711U" enableCode3="G729"
+enableCode4="G723" enableCode5="" enableCode6="" enableCode7=""
+enableCode8="" disableCode0="iLBC" disableCode1="G726_32" disableCode2=""
+disableCode3="" disableCode4="" disableCode5="" disableCode6=""
+disableCode7="" disableCode8="" disableCode9="" ToneCountry="1"
+JITTERBUFFER="0" MinDelay="60" MaxDelay="500" NormalDelay="120"
+SideTone="0" InternalRingerText0="" InternalRingerFile0="Ring1"
+InternalRingerText1="" InternalRingerFile1="Ring1" InternalRingerText2=""
+InternalRingerFile2="Ring1" InternalRingerText3=""
+InternalRingerFile3="Ring1" InternalRingerText4=""
+InternalRingerFile4="Ring1" InternalRingerText5=""
+InternalRingerFile5="Ring1" InternalRingerText6=""
+InternalRingerFile6="Ring1" InternalRingerText7=""
+InternalRingerFile7="Ring1" InternalRingerText8=""
+InternalRingerFile8="Ring1" InternalRingerText9=""
+InternalRingerFile9="Ring1" />
+	</SipDSPs>
+	
+	<pnps>
+			<pnp AutoGainBasicFlag="1" AutoUpVersionFlag="1"
+UsePnPFlag="0" ReportLocalIP="*99" mode="0" address="" key=""
+autoConfig="0" autoContract="0" autoUpgrade="0" />
+	</pnps>
+	
+	<Privisions>
+			<privision AutoPrivisionFlag="1"
+DHCPOptionFlag="1" Freqency="168" time="24" protocol="1"
+Firmware="{$server_address_1}" DHCPOptionValue="66" username="uname"
+password="" Downloadconfig="1" DownloadBroadsoft="0" DownloadFirmwar="1"
+DownloadKernel="1" DownloadPhonebook="1" DownloadPersonPhonebook="1"
+DownloadExtension="1" Bootingchecked="1" ExtensionNumber=""
+BootingcheckedMode="0" DownloadFilename="0" PNP="1" />
+	</Privisions>
+	
+	<Cwmps>
+			<cwmp CwmpConfigFlag="0" CwmpEveryReboot="0"
+SerialNumber="00100400YJ012050000000268b00667b"
+CwmpHost="https://tms.ctcims.cn" Port="80" HttpsPort="443" username=""
+password="" protocol="3" Periodic="0" freqency="3600" />
+	</Cwmps>
+	
+	<Networks>
+			<network DefaultGateways="192.168.0.1"
+NetConfigType="2" IPAddress="192.168.0.200" IPDNS="192.168.0.1"
+SecondDNS="0.0.0.0" SubnetMask="255.255.255.0" UsrKey="" UsrName=""
+MTU="1500" WebPort="80" AutoGetDNS="1" Hostname="" Manufacturer="" />
+	
+			<newTelnet TelnetPort="23" />
+	</Networks>
+	
+	<Pagings>
+			<paging PagingEnableOne="0" PagingDomainOne=""
+PagingGroupPortOne="10000" PagingEnableTwo="0" PagingDomainTwo=""
+PagingGroupPortTwo="10000" PagingEnableThree="0" PagingDomainThree=""
+PagingGroupPortThree="10000" PagingEnableFour="0" PagingDomainFour=""
+PagingGroupPortFour="10000" PagingEnableFive="0" PagingDomainFive=""
+PagingGroupPortFive="10000" />
+	</Pagings>
+	
+	<NATs>
+			<nat PCPortMode="0" PCPortIPAddress=""
+PCPortIPMask="" DHCPServerEnable="0" DHCPStartAddress=""
+DHCPEndAddress="" />
+	</NATs>
+	
+	<Proxys>
+			<proxy ProxyServerEnable="0"
+ProxyServerPort="1080" AnonymousLogin="1" ProxyServerDomain=""
+Username="" Password="" />
+	</Proxys>
+	
+	<sipServers>
+			<sipserver DomainName="" ProxyServerAddress=""
+SecondDomainName="" STUNAddress="" STUNEnableFlag="0"
+SipRefreshTime="3600" LocalPort="4020" LinkUse="1" BeginPort="10000"
+EndPort="10128" Qos="40" SubExpire="3600" AffiliatedPortEnable="1"
+P-Asserted-Identity="1" SipSessionTimeT1="0.5" SipSessionTimeT2="4"
+SipSessionTimeT4="5" />
+	</sipServers>
+	
+	<syss>
+			<sys KeyboardPasswd="" KeyboardEncrypt="0"
+FirstDialTime="15" MaxConnectTime="30" NoAnswerTime="70"
+NoAnswerTimeEnable="1" UpgradeCheck="1" NetworkPacket="0"
+PstnRingType="1" pictureType="0" startPicturePath="" idlePicturePath=""
+waitPicturePath1="" waitPicturePath2="" EmbeddedMode="0"
+EmbeddedFreqency="300" EmbeddedUrl="" voicemail="0" PoundSendType="0"
+voicemailToneEnable="0" PhonebookSearch="0" CallerNoAnswerTime="180"
+CallerNoAnswerTimeEnable="1" />
+	</syss>
+	
+	<DTMEFs>
+			<DTMF DTMFSendType="0" DTMFShowSendType="0"
+RFC2833CodeId="101" SIPInfoReSend="0" />
+	</DTMEFs>
+	
+	<calls>
+			<call PrefixPSTNNum="" PrefixVOIPNum=""
+AutoAnswerNum="123" CallLeaveMessageNum="*97" callwaiting="1"
+PlaycallwaitingTone="1" AfterTurnType="0" ShowPhonelist="1"
+ShowPhonelistWay="0" AutoAnswerEnableFlag="0"
+AutoAnswerEnableGroupName="" AutoAnswerMode="0" CallBusyTone="1"
+MisscallDisEnable="1" DNDSoftkeyEnable="1" CallListSaveEnable="1"
+BLFTransferEnable="0" BLFTransferMode="0" AvoidDisturbEnableFlag="0"
+SIPQos="26" RTPQos="46" forkEnableFlag="1" forktime="500"
+Unconditional="0" UnconditionalNum="" busytransfer="0" busytransferNum=""
+UnAnswer="0" UnAnswerNum="" RingFrequency="15" PickupEnable="1"
+ConfEndMethod="0" PlaycallwaitingToneFreqency="10"
+ReturnCodeWhenRefuse="0" ReturnCodeWhenDND="0" FlashHookEnable="0"
+FlashHookTime="500" HoldPlayToneEnable="1" HoldPlayToneFreqency="30"
+SuppressDTMFDisplay="0" ConferenceWay="0" ConferenceNum=""
+SIP100RelEnable="1" CallerIDSource="1" LLDP="1" LLDPInterval="60" />
+	</calls>
+	
+	<SysTimes>
+			<systime
+SNTPAddress="sparky.services.adelaide.edu.au"
+SNTPAddressBackup="www.time.ac.cn" DaylightSaveingFlag="0"
+SNTPEnableFlag="1" TimeZoneType="4" DaySet="1" HourSet="0" MinuteSet="0"
+SecondSet="0" YearSet="2000" MouthSet="1" AutoAddress="0"
+AutoAddressBackup="0" DSTtype="0" DSTStartMonth="1" DSTStartDay="1"
+DSTStartHour="0" DSTEndMonth="12" DSTEndDay="31" DSTEndHour="23"
+DSTWeekStartMonth="1" DSTWeekStartWeek="0" DSTWeekStartInMonth="1"
+DSTWeekStartHour="0" DSTWeekEndMonth="12" DSTWeekEndWeek="6"
+DSTWeekEndInMonth="5" DSTWeekEndHour="23" Offset="60"
+UpdateInterval="600" />
+	</SysTimes>
+	
+	<FunCodes>
+			<CallFun CallBackFC="" CallWaitFC=""
+TransferCodeEnable="0" TransferCodeNum="" />
+	</FunCodes>
+	
+	<RouteGoals>
+			<route DialNumLength="25" DialOutButton="1"
+DialOutFlag="0" DialOutMaxTime="5" IPStrategyEnable="0" />
+	</RouteGoals>
+	
+	<RouteTabs />
+	
+	<BlackTabs />
+	
+	<WhiteTabs>
+			<white id="0" Bookid="0" accountid="127"
+Descriptor="" IP="67.227.80.37" />
+	</WhiteTabs>
+	
+	<logs>
+			<log LogCallGrade="0" LogSave="0" LogType="1"
+LogServerAddress="" LogServerEnable="0" LogServerPort="514" />
+	</logs>
+	
+	<hotlineBLFs>
+			<hotlineBLF BLF="1" />
+	</hotlineBLFs>
+	
+	<lcds>
+			<lcd Password="" AvoidDisturbEnableFlag="0"
+Language="1" WebLanguage="1" Light="3" NoSoundEnableFlag="0"
+ScreenLightEnableFlag="1" BackLightEnableFlag="0" TimeFormat="1"
+TimeListSeparator="0" TouchScreen="0" CloseLightTime="60" ScreenTime="60"
+Contrast="3" ScreenSaverEnable="0" lockScreenPassword="1234"
+LockScreenEnable="0" LockScreenMode="0" LockScreenTime="60"
+DateFormat="1" LockKeys="0" PhoneLockTimeOut="0" />
+	</lcds>
+	
+	<passwords>
+			<password UsrName="root" Password="root"
+User="user" UserPassword="user" />
+	</passwords>
+	
+	<HotLineFuns>
+			<HotLineFun HotLineState="0" HotLineNum=""
+DelayTime="5" />
+	</HotLineFuns>
+	
+	<LDAPs>
+			<ldap id="0" LDAPName="" LDAPNumber=""
+Address="0.0.0.0" Com="389" Base="" UserName="" Password="" MaxHit="50"
+Name_Attribites1="" Name_Attribites2="" Name_Attribites3=""
+Number_Attribites1="" Number_Attribites2="" Number_Attribites3=""
+Protocol="3" Deslay="0" call="1" Results="1" PreDial_Dial="0"
+LDAPEnable="0" />
+	
+			<ldap id="1" LDAPName="" LDAPNumber=""
+Address="0.0.0.0" Com="389" Base="" UserName="" Password="" MaxHit="50"
+Name_Attribites1="" Name_Attribites2="" Name_Attribites3=""
+Number_Attribites1="" Number_Attribites2="" Number_Attribites3=""
+Protocol="3" Deslay="0" call="1" Results="1" PreDial_Dial="0"
+LDAPEnable="0" />
+	</LDAPs>
+	
+	<sipUsers>
+			<sipUser id="0" Describe=""
+DomainName="{$server_address_1}" Password="{$user_password_1}" ProxyServerAddress=""
+SecondProxyServerAddress="" PollingRegistrationTime="32"
+RefreshTime="3600" Subscribe="1800" SecondDomainName="" STUNAddress=""
+STUNEnableFlag="0" UserName="{$user_id_1}" UserNumber="{$user_id_1}" flag="0" LinkUse="1"
+PossessNumber="1" SupportNumber="8" approveName="" RTPBegin="10000"
+RTPEND="10128" EnableAccount="1" AccountMode="0" RegisterMethod="0"
+BLAEnableFlag="0" BLANum="" AnonymousCall="0" UserSessionTimerEnable="0"
+SessionTimer="300" AllowEventsEnable="0" DNSSRVEnable="0"
+RegisteredNAT="1" RingFilename="" KeepaliveEnable="1"
+KeepaliveInterval="30" AnonymousCallReject="0" ProxyEnableFlag="0"
+AutoAnsEnableFlag="0" SessionTimerRefresher="0" UserphoneEnable="0"
+UserSessionTimerRefresher="0" />
+
+<sipUser id="1" Describe=""
+DomainName="{$server_address_2}" Password="{$user_password_2}" ProxyServerAddress=""
+SecondProxyServerAddress="" PollingRegistrationTime="32"
+RefreshTime="3600" Subscribe="1800" SecondDomainName="" STUNAddress=""
+STUNEnableFlag="0" UserName="{$user_id_2}" UserNumber="{$user_id_2}" flag="0" LinkUse="1"
+PossessNumber="1" SupportNumber="8" approveName="" RTPBegin="10000"
+RTPEND="10128" EnableAccount="1" AccountMode="0" RegisterMethod="0"
+BLAEnableFlag="0" BLANum="" AnonymousCall="0" UserSessionTimerEnable="0"
+SessionTimer="300" AllowEventsEnable="0" DNSSRVEnable="0"
+RegisteredNAT="1" RingFilename="" KeepaliveEnable="1"
+KeepaliveInterval="30" AnonymousCallReject="0" ProxyEnableFlag="0"
+AutoAnsEnableFlag="0" SessionTimerRefresher="0" UserphoneEnable="0"
+UserSessionTimerRefresher="0" />
+
+<sipUser id="2" Describe=""
+DomainName="{$server_address_3}" Password="{$user_password_3}" ProxyServerAddress=""
+SecondProxyServerAddress="" PollingRegistrationTime="32"
+RefreshTime="3600" Subscribe="1800" SecondDomainName="" STUNAddress=""
+STUNEnableFlag="0" UserName="{$user_id_3}" UserNumber="{$user_id_3}" flag="0" LinkUse="1"
+PossessNumber="1" SupportNumber="8" approveName="" RTPBegin="10000"
+RTPEND="10128" EnableAccount="1" AccountMode="0" RegisterMethod="0"
+BLAEnableFlag="0" BLANum="" AnonymousCall="0" UserSessionTimerEnable="0"
+SessionTimer="300" AllowEventsEnable="0" DNSSRVEnable="0"
+RegisteredNAT="1" RingFilename="" KeepaliveEnable="1"
+KeepaliveInterval="30" AnonymousCallReject="0" ProxyEnableFlag="0"
+AutoAnsEnableFlag="0" SessionTimerRefresher="0" UserphoneEnable="0"
+UserSessionTimerRefresher="0" />
+	</sipUsers>
+	
+	<SipEncrys>
+			<SipEncry id="0" EncryptionNum=""
+EncryptionType="0" FaxEncryption="0" RTPEncryption="0"
+SignalingEncryption="0" SRTPEncryption="0" />
+	
+			<SipEncry id="1" EncryptionNum=""
+EncryptionType="0" FaxEncryption="0" RTPEncryption="0"
+SignalingEncryption="0" SRTPEncryption="0" />
+	
+			<SipEncry id="2" EncryptionNum=""
+EncryptionType="0" FaxEncryption="0" RTPEncryption="0"
+SignalingEncryption="0" SRTPEncryption="0" />
+	</SipEncrys>
+	
+	<modes>
+			<mode Headphonesmode="0" RingMode="0" />
+	</modes>
+	
+	<VPNs>
+			<VPN VPNUserName="" VPNUserPassword=""
+VPNServer="" Enable="0" Type="0" />
+	</VPNs>
+	
+	<VLANs>
+			<Vlan LocalEnableVlan="0" PCEnableVlan="0"
+LocalVID="0" PCVID="0" LocalPriority="0" PCPriority="0" />
+	</VLANs>
+	
+	<E8021xs>
+			<E8021x c8021xType="0" Identity="" Password="" />
+	</E8021xs>
+	
+	<BlueTooths>
+			<bluetooth AutoConnectEnable="0" Visiable="0"
+ConnectAllEnable="0" Name="" MAC="" />
+	</BlueTooths>
+	
+	<MultiMedias>
+			<MultiMedia EnableMultiMedia="0" OutCode=""
+Password="root" OutCodeLen="0" DoorbellCode="" OpenDoorPwd="" />
+	</MultiMedias>
+	
+		<hotlines>
+			<hotline id="0" SipAccounts="{$memory_key_line_1}" ID="{$memory_key_id_1}" Type="{$memory_key_type_1}"
+HotlineNum="{$memory_key_extension_1}" Name="{$memory_key_label_1}" ExternID="{$memory_key_extension_1}" />
+	
+			<hotline id="1" SipAccounts="{$memory_key_line_2}" ID="{$memory_key_id_2}" Type="{$memory_key_type_2}"
+HotlineNum="{$memory_key_extension_2}" Name="{$memory_key_label_2}" ExternID="{$memory_key_extension_2}" />
+	
+			<hotline id="2" SipAccounts="{$memory_key_line_3}" ID="{$memory_key_id_3}" Type="{$memory_key_type_3}"
+HotlineNum="{$memory_key_extension_3}" Name="{$memory_key_label_3}" ExternID="{$memory_key_extension_3}" />
+	
+			<hotline id="3" SipAccounts="{$memory_key_line_4}" ID="{$memory_key_id_4}" Type="{$memory_key_type_4}"
+HotlineNum="{$memory_key_extension_4}" Name="{$memory_key_label_4}" ExternID="{$memory_key_extension_4}" />
+	
+			<hotline id="4" SipAccounts="{$memory_key_line_5}" ID="{$memory_key_id_5}" Type="{$memory_key_type_5}"
+HotlineNum="{$memory_key_extension_5}" Name="{$memory_key_label_5}" ExternID="{$memory_key_extension_5}" />
+	
+			<hotline id="5" SipAccounts="{$memory_key_line_6}" ID="{$memory_key_id_6}" Type="{$memory_key_type_6}"
+HotlineNum="{$memory_key_extension_6}" Name="{$memory_key_label_6}" ExternID="{$memory_key_extension_6}" />
+	
+			<hotline id="6" SipAccounts="{$memory_key_line_7}" ID="{$memory_key_id_7}" Type="{$memory_key_type_7}"
+HotlineNum="{$memory_key_extension_7}" Name="{$memory_key_label_7}" ExternID="{$memory_key_extension_7}" />
+	
+			<hotline id="7" SipAccounts="{$memory_key_line_8}" ID="{$memory_key_id_8}" Type="{$memory_key_type_8}"
+HotlineNum="{$memory_key_extension_8}" Name="{$memory_key_label_8}" ExternID="{$memory_key_extension_8}" />
+	
+			<hotline id="8" SipAccounts="{$memory_key_line_9}" ID="{$memory_key_id_9}" Type="{$memory_key_type_9}"
+HotlineNum="{$memory_key_extension_9}" Name="{$memory_key_label_9}" ExternID="{$memory_key_extension_9}" />
+	
+			<hotline id="9" SipAccounts="{$memory_key_line_10}" ID="{$memory_key_id_10}" Type="{$memory_key_type_10}"
+HotlineNum="{$memory_key_extension_10}" Name="{$memory_key_label_10}" ExternID="{$memory_key_extension_10}" />
+	
+			<hotline id="10" SipAccounts="{$memory_key_line_11}" ID="{$memory_key_id_11}" Type="{$memory_key_type_11}"
+HotlineNum="{$memory_key_extension_11}" Name="{$memory_key_label_11}" ExternID="{$memory_key_extension_11}" />
+	
+			<hotline id="11" SipAccounts="{$memory_key_line_12}" ID="{$memory_key_id_12}" Type="{$memory_key_type_12}"
+HotlineNum="{$memory_key_extension_12}" Name="{$memory_key_label_12}" ExternID="{$memory_key_extension_12}" />
+	</hotlines>
+	<Programbuttons>
+			<Programbutton id="0" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="1" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="2" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="3" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="4" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="5" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="6" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<Programbutton id="7" Num="" SipAccounts="0"
+Type="0" Name="" />
+	</Programbuttons>
+	
+	<ProgramKeys>
+			<ProgramKey id="0" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="1" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="2" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="3" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="4" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="5" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="6" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="7" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="8" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="9" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="10" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="11" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="12" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="13" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="14" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="15" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="16" Num="" SipAccounts="0"
+Type="0" Name="" />
+	
+			<ProgramKey id="17" Num="" SipAccounts="0"
+Type="0" Name="" />
+	</ProgramKeys>
+	
+	<SoftKeys Enable="1" Status="0" Selected="0">
+			<SoftKey id="0" softkey1Value="6"
+softkey2Value="0" softkey3Value="23" softkey4Value="16" />
+	
+			<SoftKey id="1" softkey1Value="0"
+softkey2Value="0" softkey3Value="0" softkey4Value="8" />
+	
+			<SoftKey id="2" softkey1Value="10"
+softkey2Value="0" softkey3Value="0" softkey4Value="16" />
+	
+			<SoftKey id="3" softkey1Value="0"
+softkey2Value="0" softkey3Value="0" softkey4Value="8" />
+	
+			<SoftKey id="4" softkey1Value="10"
+softkey2Value="0" softkey3Value="0" softkey4Value="16" />
+	
+			<SoftKey id="5" softkey1Value="0"
+softkey2Value="0" softkey3Value="0" softkey4Value="8" />
+	
+			<SoftKey id="6" softkey1Value="14"
+softkey2Value="27" softkey3Value="4" softkey4Value="15" />
+	
+			<SoftKey id="7" softkey1Value="9"
+softkey2Value="11" softkey3Value="10" softkey4Value="8" />
+	
+			<SoftKey id="8" softkey1Value="13"
+softkey2Value="20" softkey3Value="10" softkey4Value="8" />
+	
+			<SoftKey id="9" softkey1Value="18"
+softkey2Value="25" softkey3Value="0" softkey4Value="16" />
+	
+			<SoftKey id="10" softkey1Value="9"
+softkey2Value="17" softkey3Value="0" softkey4Value="8" />
+	
+			<SoftKey id="11" softkey1Value="14"
+softkey2Value="10" softkey3Value="8" softkey4Value="15" />
+	</SoftKeys>
+	
+	<Extensions>
+			<extension id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extensions>
+	
+	<Extension2s>
+			<extension2 id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension2 id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension2 id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension2 id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension2 id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension2 id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension2 id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension2 id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension2 id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension2 id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension2 id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension2 id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension2 id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension2 id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension2 id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension2 id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension2 id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension2 id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension2 id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension2 id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension2 id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension2 id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension2 id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension2 id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension2 id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension2 id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension2 id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension2 id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension2 id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension2 id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension2 id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension2 id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extension2s>
+	
+	<Extension3s>
+			<extension3 id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension3 id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension3 id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension3 id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension3 id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension3 id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension3 id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension3 id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension3 id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension3 id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension3 id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension3 id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension3 id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension3 id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension3 id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension3 id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension3 id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension3 id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension3 id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension3 id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension3 id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension3 id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension3 id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension3 id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension3 id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension3 id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension3 id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension3 id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension3 id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension3 id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension3 id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension3 id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extension3s>
+	
+	<Extension4s>
+			<extension4 id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension4 id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension4 id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension4 id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension4 id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension4 id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension4 id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension4 id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension4 id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension4 id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension4 id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension4 id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension4 id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension4 id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension4 id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension4 id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension4 id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension4 id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension4 id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension4 id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension4 id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension4 id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension4 id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension4 id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension4 id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension4 id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension4 id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension4 id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension4 id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension4 id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension4 id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension4 id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extension4s>
+	
+	<Extension5s>
+			<extension5 id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension5 id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension5 id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension5 id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension5 id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension5 id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension5 id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension5 id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension5 id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension5 id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension5 id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension5 id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension5 id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension5 id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension5 id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension5 id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension5 id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension5 id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension5 id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension5 id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension5 id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension5 id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension5 id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension5 id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension5 id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension5 id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension5 id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension5 id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension5 id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension5 id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension5 id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension5 id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extension5s>
+	
+	<Extension6s>
+			<extension6 id="0" HotlineNum="{$expansion_key_extension_1}"
+SipAccounts="{$expansion_key_line_1}" ID="{$expansion_key_id_1}" Type="{$expansion_key_type_1}" Name="{$expansion_key_label_1}" />
+	
+			<extension6 id="1" HotlineNum="{$expansion_key_extension_2}"
+SipAccounts="{$expansion_key_line_2}" ID="{$expansion_key_id_2}" Type="{$expansion_key_type_2}" Name="{$expansion_key_label_2}" />
+	
+			<extension6 id="2" HotlineNum="{$expansion_key_extension_3}"
+SipAccounts="{$expansion_key_line_3}" ID="{$expansion_key_id_3}" Type="{$expansion_key_type_3}" Name="{$expansion_key_label_3}" />
+	
+			<extension6 id="3" HotlineNum="{$expansion_key_extension_4}"
+SipAccounts="{$expansion_key_line_4}" ID="{$expansion_key_id_4}" Type="{$expansion_key_type_4}" Name="{$expansion_key_label_4}" />
+	
+			<extension6 id="4" HotlineNum="{$expansion_key_extension_5}"
+SipAccounts="{$expansion_key_line_5}" ID="{$expansion_key_id_5}" Type="{$expansion_key_type_5}" Name="{$expansion_key_label_5}" />
+	
+			<extension6 id="5" HotlineNum="{$expansion_key_extension_6}"
+SipAccounts="{$expansion_key_line_6}" ID="{$expansion_key_id_6}" Type="{$expansion_key_type_6}" Name="{$expansion_key_label_6}" />
+	
+			<extension6 id="6" HotlineNum="{$expansion_key_extension_7}"
+SipAccounts="{$expansion_key_line_7}" ID="{$expansion_key_id_7}" Type="{$expansion_key_type_7}" Name="{$expansion_key_label_7}" />
+	
+			<extension6 id="7" HotlineNum="{$expansion_key_extension_8}"
+SipAccounts="{$expansion_key_line_8}" ID="{$expansion_key_id_8}" Type="{$expansion_key_type_8}" Name="{$expansion_key_label_8}" />
+	
+			<extension6 id="8" HotlineNum="{$expansion_key_extension_9}"
+SipAccounts="{$expansion_key_line_9}" ID="{$expansion_key_id_9}" Type="{$expansion_key_type_9}" Name="{$expansion_key_label_9}" />
+	
+			<extension6 id="9" HotlineNum="{$expansion_key_extension_10}"
+SipAccounts="{$expansion_key_line_10}" ID="{$expansion_key_id_10}" Type="{$expansion_key_type_10}" Name="{$expansion_key_label_10}" />
+	
+			<extension6 id="10" HotlineNum="{$expansion_key_extension_11}"
+SipAccounts="{$expansion_key_line_11}" ID="{$expansion_key_id_11}" Type="{$expansion_key_type_11}" Name="{$expansion_key_label_11}" />
+	
+			<extension6 id="11" HotlineNum="{$expansion_key_extension_12}"
+SipAccounts="{$expansion_key_line_12}" ID="{$expansion_key_id_12}" Type="{$expansion_key_type_12}" Name="{$expansion_key_label_12}" />
+	
+			<extension6 id="12" HotlineNum="{$expansion_key_extension_13}"
+SipAccounts="{$expansion_key_line_13}" ID="{$expansion_key_id_13}" Type="{$expansion_key_type_13}" Name="{$expansion_key_label_13}" />
+	
+			<extension6 id="13" HotlineNum="{$expansion_key_extension_14}"
+SipAccounts="{$expansion_key_line_14}" ID="{$expansion_key_id_14}" Type="{$expansion_key_type_14}" Name="{$expansion_key_label_14}" />
+
+			<extension6 id="14" HotlineNum="{$expansion_key_extension_15}"
+SipAccounts="{$expansion_key_line_15}" ID="{$expansion_key_id_15}" Type="{$expansion_key_type_15}" Name="{$expansion_key_label_15}" />
+	
+			<extension6 id="15" HotlineNum="{$expansion_key_extension_16}"
+SipAccounts="{$expansion_key_line_16}" ID="{$expansion_key_id_16}" Type="{$expansion_key_type_16}" Name="{$expansion_key_label_16}" />
+	
+			<extension6 id="16" HotlineNum="{$expansion_key_extension_17}"
+SipAccounts="{$expansion_key_line_17}" ID="{$expansion_key_id_17}" Type="{$expansion_key_type_17}" Name="{$expansion_key_label_17}" />
+	
+			<extension6 id="17" HotlineNum="{$expansion_key_extension_18}"
+SipAccounts="{$expansion_key_line_18}" ID="{$expansion_key_id_18}" Type="{$expansion_key_type_18}" Name="{$expansion_key_label_18}" />
+	
+			<extension6 id="18" HotlineNum="{$expansion_key_extension_19}"
+SipAccounts="{$expansion_key_line_19}" ID="{$expansion_key_id_19}" Type="{$expansion_key_type_19}" Name="{$expansion_key_label_19}" />
+	
+			<extension6 id="19" HotlineNum="{$expansion_key_extension_20}"
+SipAccounts="{$expansion_key_line_20}" ID="{$expansion_key_id_20}" Type="{$expansion_key_type_20}" Name="{$expansion_key_label_20}" />
+	
+			<extension6 id="20" HotlineNum="{$expansion_key_extension_21}"
+SipAccounts="{$expansion_key_line_21}" ID="{$expansion_key_id_21}" Type="{$expansion_key_type_21}" Name="{$expansion_key_label_21}" />
+	
+			<extension6 id="21" HotlineNum="{$expansion_key_extension_22}"
+SipAccounts="{$expansion_key_line_22}" ID="{$expansion_key_id_22}" Type="{$expansion_key_type_22}" Name="{$expansion_key_label_22}" />
+	
+			<extension6 id="22" HotlineNum="{$expansion_key_extension_23}"
+SipAccounts="{$expansion_key_line_23}" ID="{$expansion_key_id_23}" Type="{$expansion_key_type_23}" Name="{$expansion_key_label_23}" />
+	
+			<extension6 id="23" HotlineNum="{$expansion_key_extension_24}"
+SipAccounts="{$expansion_key_line_24}" ID="{$expansion_key_id_24}" Type="{$expansion_key_type_24}" Name="{$expansion_key_label_24}" />
+	
+			<extension6 id="24" HotlineNum="{$expansion_key_extension_25}"
+SipAccounts="{$expansion_key_line_25}" ID="{$expansion_key_id_25}" Type="{$expansion_key_type_25}" Name="{$expansion_key_label_25}" />
+	
+			<extension6 id="25" HotlineNum="{$expansion_key_extension_26}"
+SipAccounts="{$expansion_key_line_26}" ID="{$expansion_key_id_26}" Type="{$expansion_key_type_26}" Name="{$expansion_key_label_26}" />
+	
+			<extension6 id="26" HotlineNum="{$expansion_key_extension_27}"
+SipAccounts="{$expansion_key_line_27}" ID="{$expansion_key_id_27}" Type="{$expansion_key_type_27}" Name="{$expansion_key_label_27}" />
+	
+			<extension6 id="27" HotlineNum="{$expansion_key_extension_28}"
+SipAccounts="{$expansion_key_line_28}" ID="{$expansion_key_id_28}" Type="{$expansion_key_type_28}" Name="{$expansion_key_label_28}" />
+	
+			<extension6 id="28" HotlineNum="{$expansion_key_extension_29}"
+SipAccounts="{$expansion_key_line_29}" ID="{$expansion_key_id_29}" Type="{$expansion_key_type_29}" Name="{$expansion_key_label_29}" />
+	
+			<extension6 id="29" HotlineNum="{$expansion_key_extension_30}"
+SipAccounts="{$expansion_key_line_30}" ID="{$expansion_key_id_30}" Type="{$expansion_key_type_30}" Name="{$expansion_key_label_30}" />
+	
+			<extension6 id="30" HotlineNum="{$expansion_key_extension_31}"
+SipAccounts="{$expansion_key_line_31}" ID="{$expansion_key_id_31}" Type="{$expansion_key_type_31}" Name="{$expansion_key_label_31}" />
+	
+			<extension6 id="31" HotlineNum="{$expansion_key_extension_32}"
+SipAccounts="{$expansion_key_line_32}" ID="{$expansion_key_id_32}" Type="{$expansion_key_type_32}" Name="{$expansion_key_label_32}" />
+	</Extension6s>
+	<PhoneBooks />
+	<PhoneGroups />
+	
+	</all>

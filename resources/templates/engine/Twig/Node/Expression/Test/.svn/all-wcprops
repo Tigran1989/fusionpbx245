@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test
+END
+Even.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Even.php
+END
+Defined.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Defined.php
+END
+Divisibleby.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Divisibleby.php
+END
+Odd.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Odd.php
+END
+Sameas.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Sameas.php
+END
+Constant.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Constant.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Test/Null.php
+END

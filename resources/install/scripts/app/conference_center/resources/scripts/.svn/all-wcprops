@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/conference_center/resources/scripts
+END
+mute.lua
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/conference_center/resources/scripts/mute.lua
+END
+unmute.lua
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/conference_center/resources/scripts/unmute.lua
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/xml_handler/resources/scripts/directory/action
+END
+message-count.lua
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/scripts/app/xml_handler/resources/scripts/directory/action/message-count.lua
+END
+domains.lua
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/xml_handler/resources/scripts/directory/action/domains.lua
+END
+reverse-auth-lookup.lua
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/xml_handler/resources/scripts/directory/action/reverse-auth-lookup.lua
+END
+group_call.lua
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/xml_handler/resources/scripts/directory/action/group_call.lua
+END

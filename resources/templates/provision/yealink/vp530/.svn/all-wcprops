@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/vp530
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/vp530/%7B$mac%7D.cfg
+END
+y000000000023.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/vp530/y000000000023.cfg
+END

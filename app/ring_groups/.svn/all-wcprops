@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups
+END
+ring_group_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_delete.php
+END
+ring_group_destination_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_destination_delete.php
+END
+ring_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_groups.php
+END
+ring_group_forward.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_forward.php
+END
+ring_group_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_edit.php
+END
+ring_group_destination_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_destination_edit.php
+END
+ring_group_forward_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/ring_group_forward_edit.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/app_config.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6704/trunk/fusionpbx/app/ring_groups/app_languages.php
+END

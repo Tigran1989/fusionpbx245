@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary
+END
+And.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/And.php
+END
+Less.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Less.php
+END
+In.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/In.php
+END
+Equal.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Equal.php
+END
+Concat.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Concat.php
+END
+BitwiseOr.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/BitwiseOr.php
+END
+StartsWith.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/StartsWith.php
+END
+Mod.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Mod.php
+END
+Or.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Or.php
+END
+GreaterEqual.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/GreaterEqual.php
+END
+Div.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Div.php
+END
+FloorDiv.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/FloorDiv.php
+END
+Matches.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Matches.php
+END
+EndsWith.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/EndsWith.php
+END
+NotIn.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/NotIn.php
+END
+Add.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Add.php
+END
+NotEqual.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/NotEqual.php
+END
+Sub.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Sub.php
+END
+BitwiseAnd.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/BitwiseAnd.php
+END
+Greater.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Greater.php
+END
+Range.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Range.php
+END
+Power.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Power.php
+END
+Mul.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/Mul.php
+END
+LessEqual.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/LessEqual.php
+END
+BitwiseXor.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression/Binary/BitwiseXor.php
+END

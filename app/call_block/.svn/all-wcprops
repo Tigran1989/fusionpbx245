@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block
+END
+root.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4605/trunk/fusionpbx/app/call_block/root.php
+END
+call_block.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/call_block.php
+END
+call_block_cdr_add.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/call_block_cdr_add.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/app_config.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/app_languages.php
+END
+call_block_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/call_block_delete.php
+END
+call_block_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6704/trunk/fusionpbx/app/call_block/call_block_edit.php
+END

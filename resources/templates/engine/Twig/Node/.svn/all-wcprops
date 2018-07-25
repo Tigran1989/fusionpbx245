@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node
+END
+Set.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Set.php
+END
+Print.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Print.php
+END
+Body.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Body.php
+END
+If.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/If.php
+END
+Sandbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Sandbox.php
+END
+Expression.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Expression.php
+END
+Macro.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Macro.php
+END
+Do.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Do.php
+END
+BlockReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/BlockReference.php
+END
+Import.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Import.php
+END
+Embed.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Embed.php
+END
+SandboxedModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/SandboxedModule.php
+END
+ForLoop.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/ForLoop.php
+END
+Flush.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Flush.php
+END
+SetTemp.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/SetTemp.php
+END
+Spaceless.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Spaceless.php
+END
+Include.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Include.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Text.php
+END
+SandboxedPrint.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/SandboxedPrint.php
+END
+Module.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Module.php
+END
+For.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/For.php
+END
+AutoEscape.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/AutoEscape.php
+END
+Block.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Node/Block.php
+END

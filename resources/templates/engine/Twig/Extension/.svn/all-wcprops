@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension
+END
+Staging.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Staging.php
+END
+StringLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/StringLoader.php
+END
+Sandbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Sandbox.php
+END
+Optimizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Optimizer.php
+END
+Escaper.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Escaper.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Debug.php
+END
+Core.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Extension/Core.php
+END

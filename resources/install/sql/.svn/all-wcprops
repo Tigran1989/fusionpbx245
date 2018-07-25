@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/sql
+END
+sqlite.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/sql/sqlite.sql
+END
+mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/sql/mysql.sql
+END
+pgsql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/sql/pgsql.sql
+END

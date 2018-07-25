@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7960
+END
+dialplan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7960/dialplan.xml
+END
+SIPDefault.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7960/SIPDefault.cnf
+END
+SIP{$mac}.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7960/SIP%7B$mac%7D.cnf
+END

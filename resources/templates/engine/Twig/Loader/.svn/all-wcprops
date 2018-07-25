@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Loader
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Loader/Array.php
+END
+Chain.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Loader/Chain.php
+END
+Filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Loader/Filesystem.php
+END
+String.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Loader/String.php
+END

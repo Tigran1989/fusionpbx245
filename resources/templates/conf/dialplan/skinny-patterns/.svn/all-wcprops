@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/skinny-patterns
+END
+20-Local_extension.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/skinny-patterns/20-Local_extension.xml
+END
+99-Default_Drop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/skinny-patterns/99-Default_Drop.xml
+END
+90-External.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/skinny-patterns/90-External.xml
+END
+20-Demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/conf/dialplan/skinny-patterns/20-Demo.xml
+END

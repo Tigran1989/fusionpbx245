@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6789/trunk/fusionpbx/app/destinations
+END
+destination_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6704/trunk/fusionpbx/app/destinations/destination_delete.php
+END
+destinations.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6704/trunk/fusionpbx/app/destinations/destinations.php
+END
+app_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6704/trunk/fusionpbx/app/destinations/app_config.php
+END
+destination_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6789/trunk/fusionpbx/app/destinations/destination_edit.php
+END
+app_languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6704/trunk/fusionpbx/app/destinations/app_languages.php
+END

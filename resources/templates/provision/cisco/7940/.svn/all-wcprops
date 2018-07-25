@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940
+END
+SIPDefault.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940/SIPDefault.cnf
+END
+SIP{$mac}.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940/SIP%7B$mac%7D.cnf
+END
+SIP{v_mac}.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940/SIP%7Bv_mac%7D.cnf
+END
+SIPDefault.Generic.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940/SIPDefault.Generic.cnf
+END
+dialplan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/cisco/7940/dialplan.xml
+END

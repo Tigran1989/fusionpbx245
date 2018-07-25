@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6858/trunk/fusionpbx/resources
+END
+calendar_lw_layers.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/calendar_lw_layers.js
+END
+recaptchalib.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/recaptchalib.php
+END
+pdo.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6758/trunk/fusionpbx/resources/pdo.php
+END
+wysiwyg.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/wysiwyg.php
+END
+pdo_vm.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/pdo_vm.php
+END
+persist_form_var.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/persist_form_var.php
+END
+calendar_lw_menu.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/calendar_lw_menu.js
+END
+php.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/php.php
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6780/trunk/fusionpbx/resources/header.php
+END
+footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/footer.php
+END
+check_auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/check_auth.php
+END
+schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/schema.php
+END
+email_address_validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/email_address_validator.php
+END
+switch.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/switch.php
+END
+cmd.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/cmd.php
+END
+menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/menu.php
+END
+paging.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/paging.php
+END
+install.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install.php
+END
+calendar_popcalendar.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/calendar_popcalendar.js
+END
+download.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/download.php
+END
+config.php.dist
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/config.php.dist
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/login.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6846/trunk/fusionpbx/resources/functions.php
+END
+persist_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/persist_form.php
+END
+require.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6727/trunk/fusionpbx/resources/require.php
+END
+secure_download.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/secure_download.php
+END

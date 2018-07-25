@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/aastra/675x
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/aastra/675x/%7B$mac%7D.cfg
+END

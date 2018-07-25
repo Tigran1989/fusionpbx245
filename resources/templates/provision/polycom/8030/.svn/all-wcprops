@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/polycom/8030
+END
+{$mac}-registration.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/polycom/8030/%7B$mac%7D-registration.cfg
+END
+phone1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/provision/polycom/8030/phone1.cfg
+END
+sip.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/templates/provision/polycom/8030/sip.cfg
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/polycom/8030/%7B$mac%7D.cfg
+END

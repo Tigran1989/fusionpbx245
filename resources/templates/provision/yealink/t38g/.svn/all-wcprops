@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/t38g
+END
+y000000000038.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/t38g/y000000000038.cfg
+END
+{$mac}.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/provision/yealink/t38g/%7B$mac%7D.cfg
+END

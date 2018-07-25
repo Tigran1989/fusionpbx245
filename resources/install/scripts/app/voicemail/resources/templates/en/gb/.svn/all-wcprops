@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/voicemail/resources/templates/en/gb
+END
+email_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/install/scripts/app/voicemail/resources/templates/en/gb/email_body.tpl
+END
+email_subject.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/4605/trunk/fusionpbx/resources/install/scripts/app/voicemail/resources/templates/en/gb/email_subject.tpl
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Sandbox
+END
+SecurityError.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Sandbox/SecurityError.php
+END
+SecurityPolicy.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Sandbox/SecurityPolicy.php
+END
+SecurityPolicyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/6704/trunk/fusionpbx/resources/templates/engine/Twig/Sandbox/SecurityPolicyInterface.php
+END

@@ -1,0 +1,4 @@
+AuthName Freeside
+AuthType Basic
+AuthUserFile /etc/provision/htpasswd
+require valid-user
