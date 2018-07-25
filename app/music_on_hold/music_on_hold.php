@@ -158,6 +158,8 @@ if (is_uploaded_file($_FILES['upload_file']['tmp_name'])) {
 }
 
 if ($_GET['act'] == "del" && permission_exists('music_on_hold_delete')) {
+	$sampling_rate_dir = '';
+
 	if ($_GET['type'] == 'moh') {
 		//set the variables
 			$sampling_rate_dir = $_GET['sampling_rate'];
@@ -178,6 +180,7 @@ if ($_GET['act'] == "del" && permission_exists('music_on_hold_delete')) {
 				}
 			}
 		//remove the directory
+		#echo $music_on_hold_dir."/".$path_mod.$sampling_rate_dir."/-".base64_decode($_GET['file_name']);die;
 			unlink($music_on_hold_dir."/".$path_mod.$sampling_rate_dir."/".base64_decode($_GET['file_name']));
 
 		//build and save the XML
@@ -355,7 +358,7 @@ if ($_GET['act'] == "del" && permission_exists('music_on_hold_delete')) {
 						echo "	<td class='".$row_style[$c]."'>".($sampling_rate_dir / 1000)." kHz</td>\n";
 						echo "	<td class='list_control_icon'>\n";
 						if (permission_exists('music_on_hold_default_delete')) {
-							echo "<a href=\"music_on_hold.php?type=moh&act=del&sampling_rate=".$sampling_rate_dir."&file_name=".base64_encode($file)."\" onclick=\"return confirm('Do you really want to delete this file?')\">$v_link_label_delete</a>";
+							echo "<a href=\"music_on_hold.php?type=moh&act=del&sampling_rate=".$sampling_rate_dir."&file_name=".base64_encode("$sampling_rate_dir/$file")."\" onclick=\"return confirm('Do you really want to delete this file?')\">$v_link_label_delete</a>";
 						}
 						echo "	</td>\n";
 						echo "</tr>\n";
@@ -402,16 +405,16 @@ if ($_GET['act'] == "del" && permission_exists('music_on_hold_delete')) {
 						echo "<tr>\n";
 						echo "	<td class='".$row_style[$c]."'>".$file."</td>\n";
 						echo "	<td class='".$row_style[$c]."'>\n";
-						$file = base64_encode($_SESSION['domain_name'] . "/".$category_dir."/".$sampling_rate_dir."/".$file);
-						echo "		<a href=\"javascript:void(0);\" onclick=\"window.open('music_on_hold_play.php?a=download&sampling_rate=".$sampling_rate_dir."&type=moh&file_name=".$file."', 'play',' width=420,height=40,menubar=no,status=no,toolbar=no')\">".$text['label-play']."</a>&nbsp;&nbsp;&nbsp;";
-						echo "		<a href=\"music_on_hold.php?a=download&sampling_rate=".$sampling_rate_dir."&type=moh&t=bin&file_name=".$file."\">".$text['label-download']."</a>";
+						$file_base64 = base64_encode($_SESSION['domain_name'] . "/".$category_dir."/".$sampling_rate_dir."/".$file);
+						echo "		<a href=\"javascript:void(0);\" onclick=\"window.open('music_on_hold_play.php?a=download&sampling_rate=".$sampling_rate_dir."&type=moh&file_name=".$file_base64."', 'play',' width=420,height=40,menubar=no,status=no,toolbar=no')\">".$text['label-play']."</a>&nbsp;&nbsp;&nbsp;";
+						echo "		<a href=\"music_on_hold.php?a=download&sampling_rate=".$sampling_rate_dir."&type=moh&t=bin&file_name=".$file_base64."\">".$text['label-download']."</a>";
 						echo "	</td>\n";
 						echo "	<td class='".$row_style[$c]."'>".date ("F d Y H:i:s", filemtime($music_on_hold_category_parent_dir."/".$category_dir."/".$sampling_rate_dir."/".$file))."</td>\n";
 						echo "	<td class='".$row_style[$c]."'>".$file_size."</td>\n";
 						echo "	<td class='".$row_style[$c]."'>".($sampling_rate_dir / 1000)." kHz</td>\n";
 						echo "	<td class='list_control_icon'>";
 						if (permission_exists('music_on_hold_delete')) {
-							echo "<a href=\"music_on_hold.php?type=moh&act=del&category=".$category_dir."&sampling_rate=".$sampling_rate_dir."&file_name=".$file."\" onclick=\"return confirm('".$text['message-delete']."')\">$v_link_label_delete</a>";
+							echo "<a href=\"music_on_hold.php?type=moh&act=del&category=".$category_dir."&sampling_rate=".$sampling_rate_dir."&file_name=".base64_encode($file)."\" onclick=\"return confirm('".$text['message-delete']."')\">$v_link_label_delete</a>";
 						}
 						echo "	</td>\n";
 						echo "</tr>\n";
